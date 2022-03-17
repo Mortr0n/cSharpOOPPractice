@@ -1,0 +1,15 @@
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\initialOop.exe
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\initialOop.deps.json
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\initialOop.runtimeconfig.json
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\initialOop.dll
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\ref\initialOop.dll
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\bin\Debug\net6.0\initialOop.pdb
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.csproj.AssemblyReference.cache
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.AssemblyInfoInputs.cache
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.AssemblyInfo.cs
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.csproj.CoreCompileInputs.cache
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.dll
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\ref\initialOop.dll
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.pdb
+C:\Users\chris.g.morton\studyProjects\C#\oop\initialOop\obj\Debug\net6.0\initialOop.genruntimeconfig.cache

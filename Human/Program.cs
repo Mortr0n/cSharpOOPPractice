@@ -54,4 +54,70 @@ namespace Human
         }
 
     }
+
+    class Food
+    {
+        public string Name;
+        public int Calories;
+        public bool IsSpicy;
+        public bool IsSweet;
+
+        public Food(string name, int cal, bool spicy, bool sweet)
+        {
+            Name = name;
+            Calories = cal;
+            IsSpicy = spicy;
+            IsSweet = sweet;
+        }
+    }
+
+    class Buffet
+    {
+        public List<Food> Menu;
+
+        public Buffet()
+        {
+            Menu = new List<Food>();
+            {
+                Food sushi = new Food("Sushi", 150, true, true);
+                Food sashimi = new Food("Sashimi", 130, false, false);
+                Food cornDog = new Food("Corn Dog", 280, false, true);
+                Food mousse = new Food("Chocolate Mousse", 367, false, true);
+                Food taco = new Food("Spicy Taco", 340, true, false);
+                Food burger = new Food("Deluxe Hamburger", 480, false, false);
+                Food okra = new Food("Fried Okra", 390, false, false);
+            }
+        }
+        Random rand = new Random();
+        public Food Serve()
+            {
+                return Menu[rand.Next(1,7)];
+            }
+            
+    }
+
+    class Ninja
+    {
+        private int calorieIntake;
+        public List<Food> FoodHistory;
+
+        public Ninja()
+        {
+            calorieIntake = 0;
+            FoodHistory = new List<Food>{};
+        }
+
+        public bool isFull
+        {
+            get
+            {
+                if(calorieIntake > 1200)
+                {
+                    return true;
+                }
+                return false;
+            }
+            
+        }
+    }
 }

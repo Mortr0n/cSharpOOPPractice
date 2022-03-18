@@ -117,7 +117,14 @@ namespace Human
                 }
                 return false;
             }
-            
+        }
+
+        public void Eat(Food foodItem)
+        {
+            if(!isFull)
+            {
+                
+            }
         }
     }
 }

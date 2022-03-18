@@ -8,7 +8,7 @@ namespace Human
         {
             Human chris = new Human("Chris");
             Human jiraiya = new Human("Jiraiya", 2, 5, 4, 110);
-            Human.Attack(chris, jiraiya);
+            chris.Attack(jiraiya);
         }
     }
 
@@ -45,11 +45,12 @@ namespace Human
             health = hlth;
         }
 
-        public static void Attack( Human humanToAttack)
+        public int Attack(Human humanToAttack)
         {
-            int damage = Strenth * 5;
+            int damage = Strength * 5;
             humanToAttack.health -= damage;
             Console.WriteLine($"{Name} attacked {humanToAttack.Name} and did {damage} damage.  {humanToAttack.Name} is now at {humanToAttack.health} health! ");
+            return humanToAttack.health;
         }
 
     }

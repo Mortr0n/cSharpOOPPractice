@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chris.g.morton\\studyProjects\\c#\\oop\\Human\\Human.csproj": {}
+    "C:\\Users\\chris.g.morton\\studyProjects\\C#\\oop\\Human\\Human.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chris.g.morton\\studyProjects\\c#\\oop\\Human\\Human.csproj": {
+    "C:\\Users\\chris.g.morton\\studyProjects\\C#\\oop\\Human\\Human.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chris.g.morton\\studyProjects\\c#\\oop\\Human\\Human.csproj",
+        "projectUniqueName": "C:\\Users\\chris.g.morton\\studyProjects\\C#\\oop\\Human\\Human.csproj",
         "projectName": "Human",
-        "projectPath": "C:\\Users\\chris.g.morton\\studyProjects\\c#\\oop\\Human\\Human.csproj",
+        "projectPath": "C:\\Users\\chris.g.morton\\studyProjects\\C#\\oop\\Human\\Human.csproj",
         "packagesPath": "C:\\Users\\chris.g.morton\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chris.g.morton\\studyProjects\\c#\\oop\\Human\\obj\\",
+        "outputPath": "C:\\Users\\chris.g.morton\\studyProjects\\C#\\oop\\Human\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chris.g.morton\\AppData\\Roaming\\NuGet\\NuGet.Config",

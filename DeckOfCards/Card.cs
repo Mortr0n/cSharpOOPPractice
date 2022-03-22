@@ -1,15 +1,41 @@
+using System;
+
 namespace DeckOfCards
 {
     class Card{
         private string stringVal;
         private string suit;
-        private int val;
+        private int value;
 
-        public Card(string thisSuit, string cardType, int thisVal)
+        public static string[] Suits = new string[4] {"Hearts", "Clubs", "Spades", "Diamonds"};
+        public Card(string s, int val)
         {
-            stringVal = cardType;
-            suit = thisSuit;
-            val = thisVal;
+            switch (val)
+            {
+                case 11:
+                    stringVal = "Jack";
+                    break;
+                case 12:
+                    stringVal = "Queen";
+                    break;
+                case 13:
+                    stringVal = "King";
+                    break;
+                case 1:
+                    stringVal = "Ace";
+                    break;
+                default:
+                    stringVal = val.ToString();
+                    break;
+            }
+            suit = s;
+            value = val;
+        }
+        
+
+        public void WriteCard()
+        {
+            Console.WriteLine($"The {stringVal} of {suit}");
         }
     }
 

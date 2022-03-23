@@ -1,0 +1,5 @@
+C:\Users\chris.g.morton\studyProjects\C#\oop\WizNinSam\obj\Debug\net6.0\WizNinSam.csproj.AssemblyReference.cache
+C:\Users\chris.g.morton\studyProjects\C#\oop\WizNinSam\obj\Debug\net6.0\WizNinSam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chris.g.morton\studyProjects\C#\oop\WizNinSam\obj\Debug\net6.0\WizNinSam.AssemblyInfoInputs.cache
+C:\Users\chris.g.morton\studyProjects\C#\oop\WizNinSam\obj\Debug\net6.0\WizNinSam.AssemblyInfo.cs
+C:\Users\chris.g.morton\studyProjects\C#\oop\WizNinSam\obj\Debug\net6.0\WizNinSam.csproj.CoreCompileInputs.cache

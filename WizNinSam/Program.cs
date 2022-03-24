@@ -10,6 +10,15 @@
             Human killMe = new Human("GuytoKill");
 
             jiraiya.Attack(sasuke);
+            sasuke.Meditate();
+            
+            gandalf.Attack(jiraiya);
+            killMe.Attack(gandalf);
+            gandalf.Heal(gandalf);
+            jiraiya.Steal(gandalf);
+            jiraiya.Steal(gandalf);
+            jiraiya.Steal(gandalf);
+            jiraiya.Steal(gandalf);
         }
     }
 }

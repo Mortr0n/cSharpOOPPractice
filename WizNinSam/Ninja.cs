@@ -4,7 +4,7 @@ namespace WizNinSam
 {
     class Ninja : Human
     {
-        public Ninja (string name) : base(name, 3, 3, 175, 100) { }
+        public Ninja (string name) : base(name, 3, 3, 7, 100) { }
 
         public override int Attack(Human target)
         {
@@ -15,15 +15,17 @@ namespace WizNinSam
                 dmg += 10;
                 Console.WriteLine("Critical HIT!");
             }
-            target.health -= dmg;
+            target.Health -= dmg;
             Console.WriteLine($"{Name} attacks {target.Name} dealing {dmg} points of damage");
+            return target.Health;
         }
 
         public int Steal(Human target)
         {
-            target.health -= 5;
-            health += 5;
-            Console.WriteLine($"Sneaky, sneaky Ninja.  Ninjas Health is now {health}. {target.name} is now at {target.health}")
+            target.Health -= 5;
+            Health += 5;
+            Console.WriteLine($"Sneaky, sneaky Ninja.  Ninjas Health is now {Health}. {target.Name} is now at {target.Health}");
+            return target.Health;
         }
     }
 }

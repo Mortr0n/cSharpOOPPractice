@@ -10,15 +10,20 @@ namespace WizNinSam
         {
             if(target.Health < 50)
             {
-                target.Health -= target.health;
-                Console.WriteLine($"{Name} deals a deathblow to {target.Name};")
+                target.Health -= target.Health;
+                Console.WriteLine($"{Name} deals a deathblow to {target.Name};");
                 return target.Health;
             }
+            int dmg = Strength * 5;
+            target.Health -= dmg;
+            return target.Health;
+            
         }
 
-        public int Meditate()
+        public void Meditate()
         {
-            health = 200;
+            Console.WriteLine($"{Name} heals himself back to full health");
+            Health = 200;
         }
     }
 }

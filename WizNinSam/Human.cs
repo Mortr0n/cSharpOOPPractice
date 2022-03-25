@@ -13,7 +13,7 @@ namespace WizNinSam
         public int Health
         {
             get { return health; }
-            set {}
+            set { health = value; }
         }
          
         public Human(string name)

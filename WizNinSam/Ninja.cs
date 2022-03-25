@@ -16,14 +16,15 @@ namespace WizNinSam
                 Console.WriteLine("Critical HIT!");
             }
             target.Health -= dmg;
-            Console.WriteLine($"{Name} attacks {target.Name} dealing {dmg} points of damage");
+            Console.WriteLine($"{Name} attacks {target.Name} dealing {dmg} points of damage.  {target.Name} is now at {target.Health}");
             return target.Health;
         }
 
         public int Steal(Human target)
         {
-            target.Health -= 5;
-            Health += 5;
+            int dmg = 5;
+            target.Health -= dmg;
+            this.Health += dmg;
             Console.WriteLine($"Sneaky, sneaky Ninja.  Ninjas Health is now {Health}. {target.Name} is now at {target.Health}");
             return target.Health;
         }

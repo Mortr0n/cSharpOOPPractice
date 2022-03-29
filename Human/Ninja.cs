@@ -2,38 +2,19 @@ using System;
 using System.Collections.Generic;
 namespace Human
 {
-    class Ninja
+    abstract class Ninja
     {
-        private int calorieIntake;
-        public List<Food> FoodHistory;
+        protected int calorieIntake;
+        public List<IConsumable> ConsumptionHistory;
 
         public Ninja()
         {
             calorieIntake = 0;
-            FoodHistory = new List<Food>();
+            ConsumptionHistory = new List<IConsumable>();
         }
 
-        public bool isFull
-        {
-            get
-            {
-                return calorieIntake > 1200;
-            }
-        }
+        public abstract bool isFull{get;}
 
-        public bool Eat(Food foodItem)
-        {
-            if (!isFull)
-            {
-                calorieIntake += foodItem.Calories;
-                FoodHistory.Add(foodItem);
-                Console.WriteLine($"Ninja eats some {foodItem.Name}");
-            }
-            else
-            {
-            Console.WriteLine("Ninja is full!");                
-            }
-            return isFull;
-        }
+        public abstract void Consume(IConsumable item);
     }
 }

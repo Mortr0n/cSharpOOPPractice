@@ -18,5 +18,10 @@ namespace Phone
         }
 
         public abstract void DisplayInfo();
+
+        public string VersionNumber { get { return _versionNumber; }}
+        public int BatteryPercent { get { return _batteryPercentage; }}
+        public string Carrier { get { return _carrier; }}
+        public string RingTone { get { return _ringTone; }}
     }
 }
